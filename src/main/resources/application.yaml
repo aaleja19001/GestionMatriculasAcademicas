@@ -53,8 +53,8 @@ jwt:
   expiration: 86400000 # 24 horas
 
 cors:
-  allowed-origins: http://localhost:4200,https://wonderful-mushroom-06749de10.7.azurestaticapps.net
+  allowed-origins: http://localhost:4200,https://ambitious-cliff-066aae210.7.azurestaticapps.net
 
 app:
   frontend:
-    url: https://wonderful-mushroom-06749de10.7.azurestaticapps.net
+    url: https://ambitious-cliff-066aae210.7.azurestaticapps.net
