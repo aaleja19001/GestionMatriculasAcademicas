@@ -49,6 +49,7 @@ public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
             .requestMatchers(HttpMethod.POST, "/api/authenticate").permitAll()
             .requestMatchers("/api/register").permitAll()
             .requestMatchers("/error").permitAll()
+            .requestMatchers("/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
             .requestMatchers(HttpMethod.POST,"api/account/reset-password/init").permitAll()
             .requestMatchers(HttpMethod.POST,"api/account/reset-password/finish").permitAll()
             .requestMatchers(HttpMethod.GET, "/api/test-hash").permitAll()
